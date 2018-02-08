@@ -1,0 +1,61 @@
+button{
+    width: 3em;
+    height: 3em;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background:darkslateblue;
+    color: white;
+    font-size: 18px;
+}
+@media(max-width: 360px){
+    .Elem {
+        width: 100%;
+    }
+}
+@media(min-width: 360px){
+    .Elem {
+        width: 360px;
+    }
+}
+.comment{
+    width: 95%;
+    margin: 2px;
+    background: white;
+    height: auto;
+    padding: 0.5em;
+}
+
+.button-text{
+    color: white;
+    font-size: 20px;
+    margin-top: 0.6em;
+}
+.HomeButton{
+    margin: 0.5em;
+    background:darkslateblue;
+    width: 50px;
+    height: 50px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius:50%;
+    display: inline-block;
+    text-align: center;
+}
+.header {
+    display: flex;
+    color: white;
+    letter-spacing: 0.2em;
+    background: darkblue;
+    height: 4em;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+

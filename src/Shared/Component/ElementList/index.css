@@ -1,0 +1,80 @@
+button{
+    width: 3em;
+    height: 3em;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background:darkslateblue;
+    color: white;
+    font-size: 18px;
+}
+@media(max-width: 360px){
+    .elemList {
+        width: 100%;
+    }
+}
+@media(min-width: 360px){
+    .elemList {
+        width: 360px;
+    }
+}
+.button-text{
+    color: white;
+    font-size: 20px;
+    margin-top: 0.6em;
+}
+.elem{
+    margin: 0.2em;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    background: white;
+}
+.title{
+    padding: 0.5em;
+    width:80%;
+}
+#number{
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 50%;
+    background: darkblue;
+    text-align: center;
+    color: white;
+    margin: 0.5em;
+}
+#delete{
+    padding: 0.5em;
+    height: 100%;
+    display:none;
+    background: deeppink;s
+    cursor: pointer;
+    margin: 0;
+}
+.Header {
+    padding: 1em;
+    color: white;
+    letter-spacing: 0.2em;
+    background: darkblue;
+    font-size: 14px;
+    font-weight: bolder;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.AddButton{
+    width: 1.5em;
+    height: 1.5em;
+    display: flex;
+    justify-content: center;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: deeppink;
+    margin-left: 45%;
+    color: white;
+}
